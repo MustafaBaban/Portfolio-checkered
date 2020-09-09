@@ -692,11 +692,8 @@ body {
     align-self: center;
   }
 
-  .page-contact .container br {
-    display: none;
-  }
-
   .page-contact .container div {
+    padding-left: 20vw;
     align-self: center;
   }
 
@@ -707,24 +704,36 @@ body {
     width: 100%;
     max-height: 50vh;
     max-width: 30vw;
+    padding: 1em;
+    border-radius: 5px;
   }
 
   .page-contact .container .form .form-input {
-    background-color: transparent;
     margin-bottom: 1em;
     color: #E4E4E4;
     height: 60px;
     border: none;
     max-width: 30vw;
     width: 100%;
+    padding-left: 1em;
     font-size: 18px;
     font-weight: 300;
+    background-color: #1b1b1b;
     border-bottom: 2px solid #8A8A8A;
     outline: none;
   }
 
   .page-contact .container .form .form-input:focus {
     outline: none;
+  }
+
+  .page-contact .container .form textarea {
+    line-height: 60px;
+    overflow: hidden;
+  }
+
+  .page-contact .container .form textarea::placeholder {
+    line-height: 60px;
   }
 
   .page-contact .container .form button {
