@@ -40,6 +40,7 @@ body {
   background: #363636;
   width: 200px;
   height: 50px;
+  border-radius: 5px;
   font-size: 1rem;
 }
 
@@ -136,6 +137,7 @@ body {
 
   .page-home .nav-container .nav-bar .active {
     background-color: #363636;
+    border-radius: 5px;
     color: #F8F8F8;
     font-weight: bold;
   }
@@ -171,6 +173,10 @@ body {
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .nav-bar {
+    width: 50vw !important;
+  }
+
   .page-home {
     height: 100vh;
     width: 100%;
@@ -341,6 +347,7 @@ body {
   }
 
   .page-works .nav-container .nav-bar .active {
+    border-radius: 5px;
     background-color: #363636;
     color: #F8F8F8;
     font-weight: bold;
@@ -357,27 +364,29 @@ body {
     position: relative;
   }
 
-  .page-works .scroller .panel div {
+  .page-works .scroller .panel .panel-left {
+    padding-left: 10%;
+    width: 75%;
+    flex-direction: column;
     display: flex;
-    flex-direction: row;
-    /* making vertical centerign of all children */
+    justify-content: space-evenly;
   }
 
-  .page-works .scroller .panel div span {
-    height: 1.5px;
-    width: 160px;
-    align-self: center;
-    background-color: black;
+  .page-works .scroller .panel .panel-right {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-right: 10%;
   }
 
-  .page-works .scroller .panel div h1 {
-    margin-left: 0.5em;
-    align-self: center;
+  .page-works .scroller .panel .panel-right button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
-  .page-works .scroller .panel div h2 {
-    margin-left: 0.2em;
-    align-self: center;
+  .page-works .scroller .panel .panel-right button img {
+    width: 26px;
   }
 
   .page-works .scroller .panel h1::before {
@@ -392,7 +401,6 @@ body {
 
   .page-works .scroller .panel button {
     align-self: center;
-    margin-right: 10%;
   }
 
   .page-works .container {
@@ -596,6 +604,7 @@ body {
   }
 
   .page-contact .container .form .form-input {
+    border-radius: 5px;
     background-color: transparent;
     margin-bottom: 1em;
     color: #E4E4E4;
@@ -709,6 +718,9 @@ body {
   }
 
   .page-contact .container .form .form-input {
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
     margin-bottom: 1em;
     color: #E4E4E4;
     height: 60px;
@@ -813,7 +825,7 @@ body {
 
   .fixed-nav-container .fixed-nav .nav-container .nav-bar {
     display: flex;
-    width: 45vw;
+    width: 30vw;
     justify-content: space-between;
   }
 
@@ -828,6 +840,7 @@ body {
 
   .fixed-nav-container .fixed-nav .nav-container .nav-bar .active {
     background-color: #363636;
+    border-radius: 5px;
     color: #F8F8F8;
     font-weight: bold;
   }
@@ -874,6 +887,7 @@ body {
 }
 
 .hamburger-menu .menu-content .burger-menu-active {
+  border-radius: 5px;
   background-color: #F8F8F8;
   color: #141414;
 }

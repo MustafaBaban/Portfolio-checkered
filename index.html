@@ -1,371 +1,400 @@
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mstfa</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="fixed-nav-container">
-        <div id="fixed-nav" class="fixed-nav">
-            <div class="nav-container">
-                <h1 class="black-text">MSTFA</h1>
-                <div class="nav-bar">
-                    <a href="#page-home" class="nav-item ">HOME</a>
-                    <a href="#page-works" class="nav-item">WORKS</a>
-                    <a href="#page-about" class="nav-item">ABOUT</a>
-                    <a href="#page-contact" class="nav-item">CONTACT</a>
-                </div>
-            </div>
+      <div id="fixed-nav" class="fixed-nav">
+        <div class="nav-container">
+          <h1 class="black-text">MSTFA</h1>
+          <div class="nav-bar">
+            <a href="#page-home" class="nav-item">HOME</a>
+            <a href="#page-works" class="nav-item">WORKS</a>
+            <a href="#page-about" class="nav-item">ABOUT</a>
+            <a href="#page-contact" class="nav-item">CONTACT</a>
+          </div>
         </div>
+      </div>
     </div>
 
     <div id="menu" class="hamburger-menu">
-        <div class="menu-content">
-            <div>
-                <a class="menu-item " onclick="openLink('#page-home')" onclick="closeNav()" href="#page-home">HOME</a>
-            </div>
-            <div>
-                <a class="menu-item burger-menu-active" onclick="openLink('#page-works')" href="#page-works">WORKS</a>
-            </div>
-            <div>
-                <a class="menu-item " onclick="openLink('#page-about')" href="#page-about">ABOUT</a>
-            </div>
-            <div>
-                <a class="menu-item " onclick="openLink('#page-contact')" onclick="closeNav()"
-                    href="#page-contact">CONTACT</a>
-            </div>
+      <div class="menu-content">
+        <div>
+          <a
+            class="menu-item"
+            onclick="openLink('#page-home')"
+            onclick="closeNav()"
+            href="#page-home"
+            >HOME</a
+          >
         </div>
-        <img src="/img/closeArrow.svg" onclick="closeNav()" alt="">
+        <div>
+          <a
+            class="menu-item burger-menu-active"
+            onclick="openLink('#page-works')"
+            href="#page-works"
+            >WORKS</a
+          >
+        </div>
+        <div>
+          <a
+            class="menu-item"
+            onclick="openLink('#page-about')"
+            href="#page-about"
+            >ABOUT</a
+          >
+        </div>
+        <div>
+          <a
+            class="menu-item"
+            onclick="openLink('#page-contact')"
+            onclick="closeNav()"
+            href="#page-contact"
+            >CONTACT</a
+          >
+        </div>
+      </div>
+      <img src="/img/closeArrow.svg" onclick="closeNav()" alt="" />
     </div>
     <div id="page-home" class="page-home">
-        <div class="nav-container">
-            <h1 class="black-text">MSTFA</h1>
-            <div class="nav-bar">
-                <a href="#page-home" class="nav-item active">HOME</a>
-                <a href="#page-works" class="nav-item">WORKS</a>
-                <a href="#page-about" class="nav-item">ABOUT</a>
-                <a href="#page-contact" class="nav-item">CONTACT</a>
-            </div>
-            <img src="/img/hamburger.svg" onclick="openNav()" alt="" />
+      <div class="nav-container">
+        <h1 class="black-text">MSTFA</h1>
+        <div class="nav-bar">
+          <a href="#page-home" class="nav-item active">HOME</a>
+          <a href="#page-works" class="nav-item">WORKS</a>
+          <a href="#page-about" class="nav-item">ABOUT</a>
+          <a href="#page-contact" class="nav-item">CONTACT</a>
         </div>
-        <div class="container">
-            <img class="margin-top" src="/img/saladin.png" alt="" />
-            <div>
-                <h1 class="margin-top">front-end designer and developer</h1>
-                <p class="margin-top">
-                    I’m Mustafa from iraq and I’ve been doing front-end and web design for
-                    a couple of years. Feel free to view my works.
-                </p>
+        <img src="/img/hamburger.svg" onclick="openNav()" alt="" />
+      </div>
+      <div class="container">
+        <img class="margin-top" src="/img/saladin.png" alt="" />
+        <div>
+          <h1 class="margin-top">full stack developer and designer</h1>
+          <p class="margin-top">
+            I’m Mustafa from iraq and I’ve been doing front-end and web design
+            for a couple of years. Feel free to view my works.
+          </p>
 
-                <button class="btn margin-top">SEE MY WORKS -></button>
-            </div>
+          <button class="btn margin-top">SEE MY WORKS</button>
         </div>
+      </div>
     </div>
     <div id="page-works" class="page-works">
-        <div class="nav-container">
-            <h1 class="black-text">Works</h1>
-
+      <div class="nav-container">
+        <h1 class="black-text">Works</h1>
+      </div>
+      <div class="scroller">
+        <div class="panel">
+          <div class="panel-left">
+            <h1>Project01</h1>
+            <p>
+              This project this and that Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Donec sagittis neque et tempus lobortis.
+            </p>
+          </div>
+          <div class="panel-right">
+            <button class="btn">GO TO PROJECT</button>
+            <button class="btn">
+              VIEW CODE <img src="/img/sm1.png" alt="" />
+            </button>
+          </div>
         </div>
-        <div class="scroller">
-
-            <div class="panel">
-                <div>
-                    <span></span>
-                    <h2>01</h2>
-                    <h1>Project01</h1>
-                </div>
-                <button class="btn ">GO TO PROJECT</button>
-            </div>
-            <div class="panel light-panel">
-                <div>
-                    <span></span>
-                    <h2>01</h2>
-                    <h1>Project01</h1>
-                </div>
-                <button class="btn ">GO TO PROJECT</button>
-            </div>
-            <div class="panel">
-                <div>
-                    <span></span>
-                    <h2>01</h2>
-                    <h1>Project01</h1>
-                </div>
-                <button class="btn ">GO TO PROJECT</button>
-            </div>
-            <div class="panel light-panel">
-                <div>
-                    <span></span>
-                    <h2>01</h2>
-                    <h1>Project01</h1>
-                </div>
-                <button class="btn ">GO TO PROJECT</button>
-            </div>
-            <div class="panel">
-                <div>
-                    <span></span>
-                    <h2>01</h2>
-                    <h1>Project01</h1>
-                </div>
-                <button class="btn ">GO TO PROJECT</button>
-            </div>
-
-
+        <div class="panel light-panel">
+          <div class="panel-left">
+            <h1>Project01</h1>
+            <p>
+              This project this and that Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Donec sagittis neque et tempus lobortis.
+            </p>
+          </div>
+          <div class="panel-right">
+            <button class="btn">GO TO PROJECT</button>
+            <button class="btn">
+              VIEW CODE <img src="/img/sm1.png" alt="" />
+            </button>
+          </div>
         </div>
-
+        <div class="panel">
+          <div class="panel-left">
+            <h1>Project01</h1>
+            <p>
+              This project this and that Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Donec sagittis neque et tempus lobortis.
+            </p>
+          </div>
+          <div class="panel-right">
+            <button class="btn">GO TO PROJECT</button>
+            <button class="btn">
+              VIEW CODE <img src="/img/sm1.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="page-about" class="page-about">
-        <!-- <img src="/img/bgsvg3.svg" alt="" style="position: absolute;right:0px;z-index:-100;"> -->
+      <!-- <img src="/img/bgsvg3.svg" alt="" style="position: absolute;right:0px;z-index:-100;"> -->
 
-        <div class="nav-container">
-            <h1 class="black-text">Tools</h1>
+      <div class="nav-container">
+        <h1 class="black-text">Tools</h1>
+      </div>
+      <div class="container">
+        <h2 style="margin-top: 1em; margin-bottom: 2em">Technology</h2>
+      </div>
+      <div class="container">
+        <!-- <h2 class="">Techonology</h2> -->
+        <div class="list-line">
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/vue.png" alt="" />
+            </div>
+            <p class="list-name">Vue</p>
+          </div>
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/vuex.png" alt="" />
+            </div>
+            <p class="list-name">Vue X</p>
+          </div>
         </div>
-        <div class="container">
-
-            <h2 style="margin-top:1em;margin-bottom:2em;">Technology</h2>
+        <div class="list-line">
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/vuerouter.png" alt="" />
+            </div>
+            <p class="list-name">Vue Router</p>
+          </div>
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/javascript.png" alt="" />
+            </div>
+            <p class="list-name">Javascript</p>
+          </div>
         </div>
-        <div class="container">
-            <!-- <h2 class="">Techonology</h2> -->
-            <div class="list-line">
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/vue.png" alt="">
-                    </div>
-                    <p class="list-name">Vue</p>
-                </div>
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/vuex.png" alt="">
-                    </div>
-                    <p class="list-name">Vue X</p>
-                </div>
+        <div class="list-line">
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/laravel.png" alt="" />
             </div>
-            <div class="list-line">
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/vuerouter.png" alt="">
-                    </div>
-                    <p class="list-name">Vue Router</p>
-                </div>
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/javascript.png" alt="">
-                    </div>
-                    <p class="list-name">Javascript</p>
-                </div>
+            <p class="list-name">Laravel</p>
+          </div>
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/webpack.png" alt="" />
             </div>
-            <div class="list-line">
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/laravel.png" alt="">
-                    </div>
-                    <p class="list-name">Laravel</p>
-                </div>
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/webpack.png" alt="">
-                    </div>
-                    <p class="list-name">Webpack</p>
-                </div>
-            </div>
-            <!-- <h2 class="">Design</h2> -->
-            <div class="list-line">
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/rest.png" alt="">
-                    </div>
-                    <p class="list-name">REST</p>
-                </div>
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/php.png" alt="">
-                    </div>
-                    <p class="list-name">php</p>
-                </div>
-            </div>
-            <div class="list-line">
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/linux.png" alt="">
-                    </div>
-                    <p class="list-name">Linux</p>
-                </div>
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/git.png" alt="">
-                    </div>
-                    <p class="list-name">Git</p>
-                </div>
-            </div>
-            <div class="list-line">
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/npm.png" alt="">
-                    </div>
-                    <p class="list-name">npm</p>
-                </div>
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/sql.png" alt="">
-                    </div>
-                    <p class="list-name">SQL</p>
-                </div>
-            </div>
-
+            <p class="list-name">Webpack</p>
+          </div>
         </div>
-        <div class="container">
-
-            <h2 style="margin-top:2em;margin-bottom:2em;">Design</h2>
+        <!-- <h2 class="">Design</h2> -->
+        <div class="list-line">
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/rest.png" alt="" />
+            </div>
+            <p class="list-name">REST</p>
+          </div>
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/php.png" alt="" />
+            </div>
+            <p class="list-name">php</p>
+          </div>
         </div>
-        <div class="container">
-            <!-- <h2 class="">Techonology</h2> -->
-            <div class="list-line">
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/figma.png" style="padding:6px" alt="">
-                    </div>
-                    <p class="list-name">Figma</p>
-                </div>
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/sass.png" alt="">
-                    </div>
-                    <p class="list-name">Sass</p>
-                </div>
+        <div class="list-line">
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/linux.png" alt="" />
             </div>
-
-            <div class="list-line">
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/bootstrap.png" alt="">
-                    </div>
-                    <p class="list-name">Bootstrap</p>
-                </div>
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/bulma.png" alt="">
-                    </div>
-                    <p class="list-name">Bulma</p>
-                </div>
+            <p class="list-name">Linux</p>
+          </div>
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/git.png" alt="" />
             </div>
-            <!-- <h2 class="">Design</h2> -->
-            <div class="list-line">
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/css3.png" alt="">
-                    </div>
-                    <p class="list-name">CSS3</p>
-                </div>
-                <div class="list-item">
-                    <div class="list-box">
-                        <img class="list-img" src="/img/html5.png" alt="">
-                    </div>
-                    <p class="list-name">HTMl5</p>
-                </div>
-            </div>
-
+            <p class="list-name">Git</p>
+          </div>
         </div>
+        <div class="list-line">
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/npm.png" alt="" />
+            </div>
+            <p class="list-name">npm</p>
+          </div>
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/sql.png" alt="" />
+            </div>
+            <p class="list-name">SQL</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 style="margin-top: 2em; margin-bottom: 2em">Design</h2>
+      </div>
+      <div class="container">
+        <!-- <h2 class="">Techonology</h2> -->
+        <div class="list-line">
+          <div class="list-item">
+            <div class="list-box">
+              <img
+                class="list-img"
+                src="/img/figma.png"
+                style="padding: 6px"
+                alt=""
+              />
+            </div>
+            <p class="list-name">Figma</p>
+          </div>
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/sass.png" alt="" />
+            </div>
+            <p class="list-name">Sass</p>
+          </div>
+        </div>
+
+        <div class="list-line">
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/bootstrap.png" alt="" />
+            </div>
+            <p class="list-name">Bootstrap</p>
+          </div>
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/bulma.png" alt="" />
+            </div>
+            <p class="list-name">Bulma</p>
+          </div>
+        </div>
+        <!-- <h2 class="">Design</h2> -->
+        <div class="list-line">
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/css3.png" alt="" />
+            </div>
+            <p class="list-name">CSS3</p>
+          </div>
+          <div class="list-item">
+            <div class="list-box">
+              <img class="list-img" src="/img/html5.png" alt="" />
+            </div>
+            <p class="list-name">HTMl5</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="page-contact" class="page-contact">
-        <!-- <img src="/img/bgsvg2.svg" alt="" style="position: absolute; right:0px;"> -->
+      <!-- <img src="/img/bgsvg2.svg" alt="" style="position: absolute; right:0px;"> -->
 
-        <div class="nav-container">
-            <h1 class="white-text">Get in touch with me .</h1>
-            <p class="white-text">I'm open to chat anytime!.</p>
-        </div>
+      <div class="nav-container">
+        <h1 class="white-text">Get in touch with me .</h1>
+        <p class="white-text">I'm open to chat anytime!.</p>
+      </div>
 
-        <div class="container">
-            <div class="form">
-                <input class="form-input" type="text" placeholder="Name">
-                <input class="form-input" type="email" placeholder="Email">
-                <textarea class="form-input" name="" placeholder="Message" id="" cols="1" rows="1"></textarea>
-                <button class="btn">Send Message</button>
-            </div>
-            <div>
-                <p style="font-weight: 300;" class="white-text">mail@mstfa.ml
-                    <br>
-                    mstfababan@gmail.com
-                </p>
-            </div>
+      <div class="container">
+        <div class="form">
+          <input class="form-input" type="text" placeholder="Name" />
+          <input class="form-input" type="email" placeholder="Email" />
+          <textarea
+            class="form-input"
+            name=""
+            placeholder="Message"
+            id=""
+            cols="1"
+            rows="1"
+          ></textarea>
+          <button class="btn">Send Message</button>
         </div>
-        <div style="display:flex;place-content: center;">
-            <div class="footer white-text">
-                <p>
-                    © MSTFA BABAN 2020
-                </p>
-                <span></span>
-                <div>
-                    <img src="/img/sm1.png" alt="">
-                    <img src="/img/sm2.png" alt="">
-                    <img src="/img/sm3.png" alt="">
-                    <img src="/img/sm4.png" alt="">
-                    <img src="/img/sm5.png" alt="">
-                </div>
-            </div>
+        <div>
+          <p style="font-weight: 300" class="white-text">
+            mail@mstfa.ml
+            <br />
+            mstfababan@gmail.com
+          </p>
         </div>
-
+      </div>
+      <div style="display: flex; place-content: center">
+        <div class="footer white-text">
+          <p>© MSTFA BABAN 2020</p>
+          <span></span>
+          <div>
+            <img src="/img/sm1.png" alt="" />
+            <img src="/img/sm2.png" alt="" />
+            <img src="/img/sm3.png" alt="" />
+            <img src="/img/sm4.png" alt="" />
+            <img src="/img/sm5.png" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
     <script>
-        function openNav() {
-            document.getElementById("menu").style.width = "100%";
+      function openNav() {
+        document.getElementById("menu").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("menu").style.width = "0%";
+      }
+
+      function openLink(el) {
+        closeNav();
+        window.scroll({
+          top: document.getElementById(el).offsetTop,
+          left: 0,
+          behavior: "smooth",
+        });
+      }
+
+      var header = document.getElementById("menu-content");
+      var btns = document.getElementsByClassName("menu-item");
+      // console.log(btns);
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("burger-menu-active");
+          current[0].className = current[0].className.replace(
+            " burger-menu-active",
+            ""
+          );
+          this.className += " burger-menu-active";
+        });
+      }
+
+      //Get the button
+      var nav = document.getElementById("fixed-nav");
+      var nextPage = document.getElementById("page-works");
+
+      // When the user scrolls down 20px from the top of the document, show the nav
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        console.log(document.body.scrollTop);
+        if (
+          document.body.scrollTop > nextPage.offsetTop - 500 ||
+          document.documentElement.scrollTop > nextPage.offsetTop - 500
+        ) {
+          nav.style.display = "block";
+        } else {
+          nav.style.display = "none";
         }
+      }
 
-        function closeNav() {
-            document.getElementById("menu").style.width = "0%";
-
-        }
-
-        function openLink(el) {
-
-            closeNav();
-            window.scroll({
-                top: document.getElementById(el).offsetTop,
-                left: 0,
-                behavior: 'smooth'
-            });
-
-        }
-
-        var header = document.getElementById("menu-content");
-        var btns = document.getElementsByClassName("menu-item");
-        // console.log(btns);
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function () {
-                var current = document.getElementsByClassName("burger-menu-active");
-                current[0].className = current[0].className.replace(" burger-menu-active", "");
-                this.className += " burger-menu-active";
-            });
-        }
-
-        //Get the button
-        var nav = document.getElementById("fixed-nav");
-        var nextPage = document.getElementById("page-works");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            console.log(document.body.scrollTop);
-            if (document.body.scrollTop > nextPage.offsetTop - 500 || document.documentElement.scrollTop > nextPage
-                .offsetTop - 500) {
-                nav.style.display = "block";
-            } else {
-                nav.style.display = "none";
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
-</body>
-
+  </body>
 </html>
