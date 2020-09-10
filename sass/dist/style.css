@@ -212,6 +212,28 @@ body {
     margin-top: 3em;
   }
 }
+@media (max-width: 480px) {
+  .project-btn {
+    padding: 0.5em;
+    max-width: 25%;
+    width: 25% !important;
+  }
+  .project-btn img {
+    display: none;
+  }
+}
+@media (max-height: 660px) {
+  .page-home img {
+    margin: 0px;
+  }
+  .page-home h1 {
+    margin: 0px;
+    font-size: 26px;
+  }
+  .page-home button {
+    margin: 1em !important;
+  }
+}
 @media (max-width: 768px) {
   .page-works {
     height: 100vh;
@@ -237,26 +259,38 @@ body {
   .page-works .scroller .panel {
     background-color: #E4E4E4;
     border-top: 1px solid #c8c8c8;
-    height: 400px;
-    min-height: 200px;
     width: 100%;
     position: relative;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .page-works .scroller .panel .panel-left {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .page-works .scroller .panel .panel-right {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  .page-works .scroller .panel .panel-right button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .page-works .scroller .panel .panel-right button img {
+    width: 26px;
   }
   .page-works .scroller .panel h1 {
     padding-top: 0.5em;
+    padding-bottom: 0.5em;
     text-align: center;
     position: relative;
   }
-  .page-works .scroller .panel h1::after {
-    position: absolute;
-    content: "";
-    height: 2px;
-    bottom: -10px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    width: 35%;
-    background: #141414;
+  .page-works .scroller .panel p {
+    text-align: center;
   }
   .page-works .scroller .panel h2 {
     text-align: center;
@@ -265,6 +299,7 @@ body {
   .page-works .scroller .panel button {
     align-self: center;
     margin-top: 2em;
+    margin-bottom: 2em;
   }
   .page-works img {
     width: 50vw;
@@ -520,6 +555,8 @@ body {
   }
   .page-contact .container .form .form-input {
     border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
     background-color: transparent;
     margin-bottom: 1em;
     color: #E4E4E4;
@@ -605,7 +642,7 @@ body {
   }
   .page-contact .container div {
     padding-left: 20vw;
-    align-self: center;
+    align-self: self-start;
   }
   .page-contact .container .form {
     display: flex;
